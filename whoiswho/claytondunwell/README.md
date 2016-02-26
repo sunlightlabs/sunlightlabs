@@ -24,16 +24,16 @@ Personal MacBook Air 2013 model w/ Intel Core i5 1.3 GHz, 8GB memory, and 256 GB
 
 ## What software do you use?
 
-- **IDE** - PyCharm
-- **Terminal** - iTerm 2
-- **Versioning** - Git & GitHub, GitLab
-- **Browser** - Chrome, Firefox
-- **Email Client** - Thunderbird
-- **Launch Bar** - Alfred
-- **Music** - iTunes, Pandora
+- **IDE** - [PyCharm](https://www.jetbrains.com/pycharm/)
+- **Terminal** - [iTerm 2](https://www.iterm2.com/)
+- **Versioning** - Git & [GitHub](https://github.com/), GitLab
+- **Browser** - [Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- **Email Client** - [Thunderbird](https://www.mozilla.org/en-US/thunderbird/)
+- **Launch Bar** - [Alfred](https://www.alfredapp.com/)
+- **Music** - [iTunes](http://www.apple.com/itunes/), [Pandora](http://www.pandora.com/)
 - **Calendar** - Apple Calendar
-- **Instant Communication** - Slack, IRC, Apple Messages
-- **Password Management** - KeePassX
-- **Time Tracking** - Toggl
+- **Instant Communication** - [Slack](https://slack.com/), IRC, Apple Messages
+- **Password Management** - [KeePassX](http://keepass.info/)
+- **Time Tracking** - [Toggl](https://toggl.com/)
 - **Other** -
-    - **f.lux** - keep my eyes happy
+    - **Screen Coloration** - [f.lux](https://justgetflux.com/)
