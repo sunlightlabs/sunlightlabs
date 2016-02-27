@@ -1,6 +1,6 @@
 # Clayton Dunwell
 
-![This is for developers](https://assets-sfcom.s3.amazonaws.com/staff/profile/cdunwell.jpg)
+![Handsome devil](https://assets-sfcom.s3.amazonaws.com/staff/profile/cdunwell.jpg)
 
 ## Contact Information
 
