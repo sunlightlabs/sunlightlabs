@@ -1,5 +1,7 @@
 # Sunlight Labs Documentation
 
+![This is for developers](assets/developers-developers-developers.gif)
+
 #### _The palest ink is better than the best memory_ 
 
 \- Chinese Proverb    
