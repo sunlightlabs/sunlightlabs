@@ -1,6 +1,6 @@
 # Sunlight Labs Documentation
 
-![This is for developers](assets/developers-developers-developers.gif)
+[![This is for developers](assets/developers-developers-developers.gif)](https://www.youtube.com/watch?v=Vhh_GeBPOhs)
 
 #### _The palest ink is better than the best memory_ 
 
