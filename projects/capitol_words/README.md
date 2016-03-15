@@ -11,7 +11,7 @@ Capitol Words downloads congressional records from [gpo.gov](http://www.gpo.gov/
 
 This daily process can be found in the `daily_update.sh` script
 
-The project path is `/projects/capwords/src/Capitol-Words` on Sunlight's new-southwest server
+The project path is `/projects/capwords/src/Capitol-Words` on Sunlight's southwest server (54.160.47.236)
 
 ###Solr & MySql
 This project uses both a Solr database and MySql database.  All queries occur in the API and will call either the Solr DB or MySql DB depending on the endpoint.
@@ -54,3 +54,5 @@ Ex:
 ___
 
 Good luck!
+
+**This documentation was originally written by [Corey Speisman](https://github.com/orgs/sunlightlabs/people/Cspeisman)**.
