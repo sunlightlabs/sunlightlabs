@@ -6,7 +6,7 @@
 
 \- Chinese Proverb    
 
-Welcome to the central hub for Sunlight Labs. This repository contains documentation and links to everything relevant to Sunlight and Sunlight Labs. Please feel free to contribute if you find something is missing or out of data. This project was inspired and is a continuation of a former documentation project Developers, Developers, Developers from which the clever animated gif above comes.
+Welcome to the central hub for Sunlight Labs. This repository contains documentation and links to everything relevant to Sunlight and Sunlight Labs. Please feel free to contribute if you find something is missing or out of date. This project was inspired and is a continuation of a former documentation project Developers, Developers, Developers from which the clever animated gif above comes.
 
 ## General
 
