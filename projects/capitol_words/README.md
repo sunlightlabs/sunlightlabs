@@ -1,5 +1,7 @@
 #Capitol Words
 
+[Source repository](https://github.com/sunlightlabs/Capitol-Words)
+
 Hi!  If you're reading this that means that you are trying to do work on the [Capitol Words](http://capitolwords.org/) site or API.  This project has seen many developer hands with very little documentation. 
 
 This document is an attempt of my brain dump regarding things I have learned about this project from working on it. 
