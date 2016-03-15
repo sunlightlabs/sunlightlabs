@@ -22,7 +22,6 @@ Welcome to the central hub for Sunlight Labs. This repository contains documenta
 ## Links & Resources
 
 - [Labs Members](https://gitlab.sunlightlabs.com/labs/sunlightlabs-docs/tree/master/whoiswho/)
-- [Master Password List](https://gitlab.sunlightlabs.com/sunlight/passwords/wikis/home)
 - [Trello Boards](https://trello.com/sunlightlabs)
 - [Sunlight Calendar](https://calendar.google.com/calendar/embed?src=sunlightfoundation%40gmail.com&ctz=America/New_York)
 - [GitHub](https://github.com/sunlightlabs)
