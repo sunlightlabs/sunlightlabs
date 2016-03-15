@@ -2,7 +2,7 @@
 
 ![Welcome to Labs, hope you survive the experience](../assets/welcome.jpeg)
 
-#### _If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later!_ 
+_If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later!_ 
 
 \- Richard Branson
 
@@ -14,7 +14,7 @@ You can find all Sunlight staff, advisers, and contractors on the main [Sunlight
 
 ## Slack
 
-We primarily use [Slack](https://sunlight.slack.com/) for office and team communications. There are channels for #labs, #design, #general, etc. We have a private channel #labs-private for labs too. Request an invite if we don't invite you!
+We primarily use [Slack](https://sunlight.slack.com/) for office and team communications. There are channels for [#labs](https://sunlight.slack.com/messages/labs/), [#design](https://sunlight.slack.com/messages/design/), [#general](https://sunlight.slack.com/messages/general/), etc. We also have a private channel [#labs-private](https://sunlight.slack.com/messages/labs-private/) for labs. Request an invite if we don't invite you first!
 
 ## Trello
 
@@ -28,7 +28,7 @@ Please also check out [Sunlight's Google Apps](http://www.google.com/a/sunlightf
 
 ### Internal Mailing Lists
 
-Mailing lists were much more important in the early years of Sunlight as we primarily use Slack for communication now. However, for longer correspondences we still use email.
+Email lists were much more important in the early years of Sunlight (circa late 2000's to early 2010's). We primarily use [Slack](https://sunlight.slack.com/) for communication now. However, for longer correspondences we still use email.
 
 Consider signing up for these mailing lists:
 
@@ -83,7 +83,7 @@ Use what you want! A number of people like [Sublime Text](http://www.sublimetext
 
 ## Version Control
 
-We use [Git](http://git-scm.com) for source code management and pushes to production. You should become proficient in Git if you're not already. Please visit our [Sunlight Labs GitHub account](https://github.com/sunlightlabs) for public and some private (likely soon-to-be-public) projects. Internal or private projects can be accessed at [our internal gitlab server](https://gitlab.sunlightlabs.com).
+We use [Git](http://git-scm.com) for source code management and pushes to production. You should become proficient in Git if you're not already. Please visit our [Sunlight Labs GitHub account](https://github.com/sunlightlabs) for public and some private (likely soon-to-be-public) projects.
 
 ## Supplies
 
