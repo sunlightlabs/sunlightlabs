@@ -1,6 +1,6 @@
 # Welcome to Sunlight & Sunlight Labs!
 
-![Welcome to Labs, hope you survive the experience](assets/welcome.jpeg)
+![Welcome to Labs, hope you survive the experience](../assets/welcome.jpeg)
 
 #### _If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later!_ 
 
