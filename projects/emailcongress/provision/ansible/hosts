@@ -1,0 +1,3 @@
+[production]
+emailcongress-site        ansible_host=ec2-54-88-6-38.compute-1.amazonaws.com ansible_user=ubuntu
+emailcongress-db          ansible_host=ec2-54-88-6-38.compute-1.amazonaws.com ansible_user=ubuntu
