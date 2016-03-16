@@ -1,0 +1,48 @@
+---
+project: "emailcongress"
+hostname: "ec2-54-88-6-38.compute-1.amazonaws.com"
+protocol: "http"
+django:
+  secret-key: "jul6qx-(ov@%ops8)7)+xp92+k7bx58#)m4cwp*zv(0ywfl#)x"
+  environment: 'production'
+  database_uri: "postgres://emailcongress:test@localhost:5432/emailcongress"
+  allowed_hosts:
+    - "ec2-54-88-6-38.compute-1.amazonaws.com"
+misc:
+  tos_days_valid: 180
+raven:
+  dsn: "https://2cdacc9c14c549789a23743ad81646a3:66dacca69f004b988b209b3fee6478c0@app.getsentry.com/70221"
+api_keys:
+  sunlight: "ffbe811fbacf40aab6dbf3fc89be450b"
+  phantom_debug: ""
+  texas_am: "4fdcf81016f64025b3e83299afef2da7"
+  texas_am_api_version: "4.01"
+  postmark: "b5b4f5a1-e5bb-46df-9900-561f7287fa0e"
+api_endpoints:
+  phantom_base: "http://10.73.98.103:3000"
+  congress_base: "http://congress.api.sunlightfoundation.com"
+paths:
+  legislator_data_cache: "data/cached_legislators.json"
+email:
+  submit_to_webform: True
+  domain: "emailcongress.us"
+  no_reply: "courier@emailcongress.us"
+  catch_all: "myreps"
+  interval_hour_max: 1
+  max_per_interval: 1000
+  approved_debug_emails:
+    - "rioisk@gmail.com"
+celery:
+  celery_result_backend: "redis://10.73.98.103:6379"
+  broker_url: "redis://10.73.98.103:6379"
+  celery_accept_content: ['json']
+  celery_message_compression: 'gzip'
+  celery_task_serializer: 'json'
+  celery_result_serializer: 'json'
+  retry_delay: 3600 # seconds
+  max_retries: 0
+aws:
+  access_key_id: 'AKIAI3IVHSOG4MVNZEDQ'
+  secret_access_key: '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'
+  storage_bucket_name: 'assets.emailcongress.us'
+  cloudfront_url: 'd1tnme6pnhrkup.cloudfront.net'

@@ -1,0 +1,5 @@
+[defaults]
+roles_path = /path/to/project/source/provisioning/directory
+private_key_file = /path/to/ssh/key
+inventory = hosts
+remote_user = ubuntu

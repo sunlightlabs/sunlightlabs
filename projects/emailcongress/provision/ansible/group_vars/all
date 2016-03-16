@@ -1,0 +1,13 @@
+---
+project_name: emailcongress
+django_settings_module: emailcongress.settings.production
+requirements: "requirements.txt"
+deploy_type: "production"
+force_git_checkout: yes
+django_environment:
+  ERROR_LOG_FILE: /projects/emailcongress/logs/django_errors.log
+  SECRET_KEY: "jul6qw-(ov@%ops8)7)+xp9v+k7bx58#)m4xwp*zv(0ywfl#)x"
+  DATABASE_URL: postgres://emailcongress:test@localhost:5432/emailcongress
+  HAYSTACK_URL: http://10.73.98.102:9200/
+  BROKER_URL: redis://10.73.98.103:6379/
+  CELERY_RESULT_BACKEND: redis://10.73.98.103:6379/
