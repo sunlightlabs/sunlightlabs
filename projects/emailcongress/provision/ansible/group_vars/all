@@ -6,8 +6,7 @@ deploy_type: "production"
 force_git_checkout: yes
 django_environment:
   ERROR_LOG_FILE: /projects/emailcongress/logs/django_errors.log
-  SECRET_KEY: "jul6qw-(ov@%ops8)7)+xp9v+k7bx58#)m4xwp*zv(0ywfl#)x"
-  DATABASE_URL: postgres://emailcongress:test@localhost:5432/emailcongress
-  HAYSTACK_URL: http://10.73.98.102:9200/
-  BROKER_URL: redis://10.73.98.103:6379/
-  CELERY_RESULT_BACKEND: redis://10.73.98.103:6379/
+  SECRET_KEY: "9lhe3hj7fffc3c5rdhbdpsc3zsha9javcyod5ashyzd5ewjc3b"
+  DATABASE_URL: "postgres://emailcongress:test@ec2-54-88-6-38.compute-1.amazonaws.com:5432/emailcongress"
+  BROKER_URL: "redis://ec2-52-23-244-182.compute-1.amazonaws.com:6379"
+  CELERY_RESULT_BACKEND: "redis://ec2-52-23-244-182.compute-1.amazonaws.com:6379"
