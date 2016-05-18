@@ -6,15 +6,28 @@ _If somebody offers you an amazing opportunity but you are not sure you can do i
 
 \- Richard Branson
 
-Welcome again to Sunlight Labs! there are some things you'll probably want to know when you start working at Sunlight. This document will hopefully give you a head start.
+There are some things you'll probably want to know when you start working at Sunlight. This document will hopefully give you a head start.
 
-## The Labs Team
+## Staff Listing
 
-You can find all Sunlight staff, advisers, and contractors on the main [Sunlight Team Page](http://sunlightfoundation.com/team/).
+You can find a directory of all Sunlight staff, advisors, and contractors on the [Sunlight team page](http://sunlightfoundation.com/team/).
+
+## Staff Portal
+
+The [Sunlight staff portal](http://sunlightfoundation.com/staff) is a helpful page where you can find quick access to:
+
+* Sitewide statistics
+* Your profile including title, bio, social media presence, image, blogposts and contact information
+* A staff contact directory that you should keep up-to-date
+* WordPress access
+* A link to our [blog style guide](https://sunlightfoundation.com/blog/styleguide/)
+* A shortcut to the Appear.in "hangout"
+* A shortcut to Rex, our custom kitchen duty app
+* Access to the sunlightfoundation.com admin
 
 ## Slack
 
-We primarily use [Slack](https://sunlight.slack.com/) for office and team communications. There are channels for [#labs](https://sunlight.slack.com/messages/labs/), [#design](https://sunlight.slack.com/messages/design/), [#general](https://sunlight.slack.com/messages/general/), etc. We also have a private channel [#labs-private](https://sunlight.slack.com/messages/labs-private/) for labs. Request an invite if we don't invite you first!
+We primarily use [Slack](https://sunlight.slack.com/) for office and team communications. There are channels for [#labs](https://sunlight.slack.com/messages/labs/), [#design](https://sunlight.slack.com/messages/design/), [#general](https://sunlight.slack.com/messages/general/), etc. We also have a private channel [#labs-private](https://sunlight.slack.com/messages/labs-private/) for Labs internal communications. Request an invite if you haven't been invited already!
 
 ## Trello
 
@@ -22,7 +35,7 @@ We primarily use [Trello](https://trello.com/) for project management. Check out
 
 ## Email & Calendar
 
-We currently use Google Apps for email and calendar (and Google Docs/Drive). Your username is your first initial and last name at sunlightfoundation.com. (For example: jdoe@sunlightfoundation.com). You can login through the normal gmail interface by using your full email address as your username. If you are having trouble logging into your email account or don't think you have one set up, find Clayton.
+We currently use Google Apps for email and calendar (and Google Docs/Drive). Your username is your first initial and last name at sunlightfoundation.com. (For example: jdoe@sunlightfoundation.com). You can log in through Gmail by using your Sunlight Foundation e-mail address. If you are having trouble logging into your e-mail account or don't think you have one set up, find Clayton.
 
 Please also check out [Sunlight's Google Apps](http://www.google.com/a/sunlightfoundation.com) which include Google Docs and Google Calendar.
 
@@ -41,10 +54,15 @@ There are also ad-hoc email lists for other things as well, but may have faded i
 
 You may want to ensure that you have access some of our shared calendars. Access is handled by Operations.
 
-Consider joining
-* Sunlight Foundation
+#### Organizational Calendars
 
-As well as all of the room calendars
+* Sunlight Foundation - The primary calendar for making events known organization-wide. Any events that involve physical absence from the office (including vacation, remote work, and travel) should be posted on this calendar.
+* Labs - The calendar for posting events that should be known to all of Sunlight Labs.
+
+#### Room Calendars
+
+These calendars are used to schedule reserved time in a specific room:
+
 * Conference Room
 * Breakout South
 * Breakout North
@@ -54,20 +72,7 @@ As well as all of the room calendars
 
 ## Twitter
 
-People here use twitter. You can find a [full list of Sunlight staff that use twitter](https://twitter.com/#!/SunFoundation/sunlighters).
-
-## Staff Page on Sunlightfoundation.com
-
-[http://sunlightfoundation.com/staff](http://sunlightfoundation.com/staff) is a helpful page where you can find quick access to:
-
-* Sitewide statistics
-* Your profile including title, bio, social media presence, image, blogposts and contact information.
-* A staff contact directory that you can and should keep up to date
-* Wordpress access
-* A link to our [blog style guide](https://sunlightfoundation.com/blog/styleguide/)
-* A shortcut to the Appear.in "hangout".
-* Shortcut to Rex, our custom kitchen duty app
-* Access to the sunlightfoundation.com admin
+You can find a [full list of Sunlight staff that use Twitter](https://twitter.com/#!/SunFoundation/sunlighters).
 
 ## Google Groups
 
@@ -75,7 +80,7 @@ We have a **sunlightlabs** Google Group, "An open list for software developers i
 
 ## Dropbox
 
-We have a **Labs** shared folder that gets some use, a **Design** shared folder which is huge and gets a lot of use, and a **sunlight-operations** folder (that is for all of Sunlight). Contact Clayton, Andy, or Albert for access.
+We have a `Labs` shared folder that gets some use, a `Design` shared folder which is huge and gets a lot of use, and a `sunlight-operations` folder (that is for all of Sunlight). Contact Clayton, Andy, or Albert for access.
 
 ## Developer tools
 
@@ -83,12 +88,8 @@ Use what you want! A number of people like [Sublime Text](http://www.sublimetext
 
 ## Version Control
 
-We use [Git](http://git-scm.com) for source code management and pushes to production. You should become proficient in Git if you're not already. Please visit our [Sunlight Labs GitHub account](https://github.com/sunlightlabs) for public and some private (likely soon-to-be-public) projects.
+We use [Git](http://git-scm.com) for source code management and pushes to production. You should become proficient in Git if you're not already. Please visit the [Sunlight Labs GitHub account](https://github.com/sunlightlabs).
 
 ## Supplies
 
-Supplies are in the supply room. It is primarily a free-for-all in there. Have at it if you need pens, paper, etc. If you can't find what you are looking for, contact Alex. Also, please feel free to take initiative and clean out junk if you think it is piling up.
-
-## Overall Team Atmosphere
-
-We're a team, so if one person's got a problem, it is everybody's problem. // TODO
+Supplies are in the supply room. It is primarily a free-for-all in there. Have at it if you need pens, paper, etc. If you can't find what you are looking for, contact Scott. Also, please feel free to take initiative and clean out junk if you think it is piling up.
