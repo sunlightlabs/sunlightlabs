@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 
 The Open States project consists of the data scrapers for all fifty states plus Puerto Rico and the District of
 Columbia.  Each state is considered a module and implements its own scrapers for any supported data type that can be
