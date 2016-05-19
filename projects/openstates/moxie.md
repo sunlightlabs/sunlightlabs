@@ -40,7 +40,7 @@ interface, you can directly navigate to `http://moxie.sunlightlabs.com/container
 -   If any specific environment variables are needed, add them to `env-sets` at the bottom of that file. You should also ensure
 that each scraper you want to run with a specific environment has its `env` property set correctly in `openstates.yaml`.
 -   `ssh moxie.sunlightlabs.com` (if you don't have keys to the box, get timball to add you)
--   `bash update.sh` pulls the latest commit of `moxie-jobs` and then immediately places your terminal inside the Docker 
+-   `bash ~/bin/update.sh` pulls the latest commit of `moxie-jobs` and then immediately places your terminal inside the Docker 
 container running Moxie.
 -   From within the Moxie container, run `moxie-load [path/to/updated/yaml]`. In this example, it would be `moxie-load
 moxie-jobs/projects/openstates/openstates.yaml`.
@@ -53,7 +53,7 @@ itself running in a Docker container (not on an RDS or otherwise external servic
 -   Once it's merged, a Docker build will be triggered. Keep an eye on [Moxie's docker builds page]
 (https://hub.docker.com/r/paultag/moxie/builds/) to make sure it succeeds.
 -   `ssh moxie.sunlightlabs.com`
--   `bash pull.sh`
+-   `bash ~/bin/pull.sh`
 
 ### Run a Moxie Job Via Slack
 
