@@ -102,6 +102,7 @@ fingerprint of your public key.
     --name openstates-in --env INDIANA_API_KEY="<insert_api_key_here>" \
     sunlightlabs/openstates in
     ```
+-   You may pass in options normally to `billy-update` through the command given to the container. For instance, run the container with `--bills in` instead of simply `in` to scrape only bills.
 -   If you need to double-check how a Docker container is composed, please refer to the configurations in the `Moxie Jobs` 
 respository in the [Sunlight Labs GitLab](https://https://gitlab.sunlightlabs.com/).
 
