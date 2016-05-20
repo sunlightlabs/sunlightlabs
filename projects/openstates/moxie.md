@@ -29,6 +29,27 @@ Although there is currently no method of navigating to individual container view
 interface, you can directly navigate to `http://moxie.sunlightlabs.com/container/<container-name>`
 (e.g. `http://moxie.sunlightlabs.com/container/openstates-al`) in order to monitor the progress of currently running jobs.
 
+## Scripts
+
+### Utility Scripts
+
+There should be some basic utility scripts under the `admin` user's `home` directory. You should read through them yourself to understand what they do since they're already small and fairly simple to understand. They mostly have to deal with updating portions of the Moxie system.
+
+### Environment Variables
+
+The environment variables passed into the Moxie service container itself should be under `/etc/docker/moxie.sh`.
+
+### Systemd Services
+
+The system services that manage the containers ... that run the services ... should be under `/etc/systemd/system`. There should be unit files for the following services:
+
+-   Moxie
+-   PostgreSQL (which Moxie uses to store data)
+-   RawDNS (I'm not sure exactly how necessary this is anymore)
+-   Nginx (Serves the Moxie web interface)
+
+Managing the services should be as easy as `systemctl start/stop/restart <service_name>`.
+
 ## How To
 
 ### Create/Edit Jobs, Users, and Configurations in Moxie
@@ -36,10 +57,11 @@ interface, you can directly navigate to `http://moxie.sunlightlabs.com/container
 -   `clone` the `moxie-jobs` repo from the Sunlight Labs Gitlab.
 -   To add an SSH user, edit `moxie-jobs/users.yaml`.
 -   To add or change an Open States scraper, edit `moxie-jobs/projects/openstates/openstates.yaml`.
--   The crontab field indicates when/how often the job will run, using [crontab syntax](https://en.wikipedia.org/wiki/Cron).
+-   The `crontab` field indicates when/how often the job will run, using [crontab syntax](https://en.wikipedia.org/wiki/Cron).
+-   To enable/disable automatic scraper runs based on the `crontab`, set the `manual` field to `true`/`false`.
 -   If any specific environment variables are needed, add them to `env-sets` at the bottom of that file. You should also ensure
 that each scraper you want to run with a specific environment has its `env` property set correctly in `openstates.yaml`.
--   `ssh moxie.sunlightlabs.com` (if you don't have keys to the box, get timball to add you)
+-   `ssh moxie.sunlightlabs.com` (if you don't have keys to the box, get Andy to add you)
 -   `bash ~/bin/update.sh` pulls the latest commit of `moxie-jobs` and then immediately places your terminal inside the Docker 
 container running Moxie.
 -   From within the Moxie container, run `moxie-load [path/to/updated/yaml]`. In this example, it would be `moxie-load
@@ -53,7 +75,7 @@ itself running in a Docker container (not on an RDS or otherwise external servic
 -   Once it's merged, a Docker build will be triggered. Keep an eye on [Moxie's docker builds page]
 (https://hub.docker.com/r/paultag/moxie/builds/) to make sure it succeeds.
 -   `ssh moxie.sunlightlabs.com`
--   `bash ~/bin/pull.sh`
+-   `bash ~/bin/pull.sh` (You may want to double check the configured repository to make sure it's pulling the correct image)
 
 ### Run a Moxie Job Via Slack
 
