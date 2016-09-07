@@ -1,27 +1,46 @@
-#Capitol Words
+# Capitol Words
 
-[Source repository](https://github.com/sunlightlabs/Capitol-Words)
+## Metadata
+
+### Basic
+
+- **Creator(s):** ?
+- **Production Domain:** [http://capitolwords.org/](http://capitolwords.org/)
+- **Source Repository:** [https://github.com/sunlightlabs/capitol-words](https://github.com/sunlightlabs/capitol-words)
+- **Type:** Web Application
+- **Languages:** Python 2, HTML5
+- **Major Dependencies:** Django, MySQL, Solr
+
+### SSH Config
+
+- User: ubuntu
+- Hostname: 54.160.47.236
+- IdentityFile: id_rsa-aws.pem
+
+This server is known as **Southwest** and in addition to Capitol Words also hosts Party Time and the OpenCongress retirement page.
+Like most Sunlight projects, you can `sudo su - capwords` to change directory to project's home directory and activate the virtual 
+environment.
+
+## Overview
 
 Hi!  If you're reading this that means that you are trying to do work on the [Capitol Words](http://capitolwords.org/) site or API.  This project has seen many developer hands with very little documentation. 
 
 This document is an attempt of my brain dump regarding things I have learned about this project from working on it. 
 
----
-
-###Basic Workflow
+### Basic Workflow
 Capitol Words downloads congressional records from [gpo.gov](http://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CREC) on a daily basis every morning at 8am.  It then runs a parser script on the records, and then populates a solr instance.
 
 This daily process can be found in the `daily_update.sh` script
 
 The project path is `/projects/capwords/src/Capitol-Words` on Sunlight's southwest server (54.160.47.236)
 
-###Solr & MySql
+### Solr & MySql
 This project uses both a Solr database and MySql database.  All queries occur in the API and will call either the Solr DB or MySql DB depending on the endpoint.
 
 Data that exists in the MySql database gets populated by different shell scripts. The `get_date_counts` and `calculate_ngram_tfidf` commands get called by the `daily_update.sh` script that help populate fields in the Ngrams model.
 Additionially, `calculate_ngram_tfidf` and `calculate_distance` gets called in the `monthly_update.sh` script that populates ngram fields for speakers and speaker states.
 
-####Database Maintenance tasks
+#### Database Maintenance tasks
 When a new congress gets sworn in new bioguide and bioguide roles need to be updated manually by running `import_bioguide.py <congress number>` and `import_roles.py` scripts. (Additionally, the congress select list will need to be updated on the [legislators page](http://capitolwords.org/legislator/)).
 
 Sometimes a legislator's phrase list on their [legislator page](http://capitolwords.org/legislator/P000603-rand-paul/) will register with no words.  It also almost always happens when a reporter is looking for a certain legislator to write about and will inevitably contact us to complain.  When this occurs I manually run the `calculate_ngram_tfidf` command and pass it the field speaker_bioguide and the actual bioguide_id as a value.

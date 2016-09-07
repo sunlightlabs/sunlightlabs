@@ -2,6 +2,7 @@
 - include: "{{source_path}}/site.yml"
   vars:
     standalone: yes
+    force_git_checkout: yes
     unversioned_files:
       - {'src': "{{inventory_dir}}/../config_files/production_config.yaml", 'dest': 'etc/config.yaml'}
 - include: "{{source_path}}/db.yml"
@@ -10,5 +11,6 @@
 - include: "{{source_path}}/taskqueue.yml"
   vars:
     standalone: yes
+    force_git_checkout: yes
     unversioned_files:
       - {'src': "{{inventory_dir}}/../config_files/production_config.yaml", 'dest': 'etc/config.yaml'}
