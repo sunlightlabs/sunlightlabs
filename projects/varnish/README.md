@@ -1,0 +1,1 @@
+Single point of failure routing and caching server for all of our properties.
