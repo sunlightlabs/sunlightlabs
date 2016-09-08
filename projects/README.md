@@ -3,12 +3,11 @@ how the project is deployed on our servers, encountered quirks, and accumulated 
 
 ## Other projects
 
-- **Congress Organization on GitHub:** Source data for many of our federal projects including Congress API.
-    - Scrapers for Congressional data.
-    - Hand curated YAMLs of members of congress, committees, etc
-- **EFF's Phantom of the Capitol:** How messages are submitted via email congress.
-- **Open North's represent-boundaries:** Used for congressional lookup maps.
-    - GitHub repo [here](https://github.com/opennorth/represent-boundaries)
+- [**Congress Organization on GitHub:**](https://github.com/unitedstates) Source data for many of our federal projects including Congress API.
+    - [Scrapers for Congressional data](https://github.com/unitedstates/congress).
+    - [Hand curated YAMLs of members of congress, committees, etc](https://github.com/unitedstates/congress-legislators)
+- [**EFF's Phantom of the Capitol:**](https://github.com/EFForg/phantom-of-the-capitol) How messages are submitted via email congress.
+- [**Open North's represent-boundaries:**](https://github.com/opennorth/represent-boundaries) Used for congressional lookup maps.
 
 ## External Services
 
