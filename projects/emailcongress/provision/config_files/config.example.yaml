@@ -1,0 +1,48 @@
+---
+project: "emailcongress"
+hostname: "localhost"
+protocol: "http"
+django:
+  secret-key: ""
+  environment: 'production'
+  database_uri: "postgres://test:test@localhost/test"
+  allowed_hosts:
+    - "127.0.0.1"
+misc:
+  tos_days_valid: 180
+raven:
+  dsn: "https://app.getsentry.com/###"
+api_keys:
+  sunlight: ""
+  phantom_debug: ""
+  texas_am: ""
+  texas_am_api_version: "4.01"
+  postmark: ""
+api_endpoints:
+  phantom_base: "http://localhost:3000"
+  congress_base: "http://localhost"
+paths:
+  legislator_data_cache: "data/cached_legislators.json"
+email:
+  submit_to_webform: True
+  domain: "example.com"
+  no_reply: "noreply@example.com"
+  catch_all: "myreps"
+  interval_hour_max: 1
+  max_per_interval: 1000
+  approved_debug_emails:
+    - "test@example.com"
+celery:
+  celery_result_backend: "redis://localhost:6379"
+  broker_url: "redis://localhost:6379"
+  celery_accept_content: ['json']
+  celery_message_compression: 'gzip'
+  celery_task_serializer: 'json'
+  celery_result_serializer: 'json'
+  retry_delay: 3600 # seconds
+  max_retries: 0
+aws:
+  access_key_id: ''
+  secret_access_key: ''
+  storage_bucket_name: ''
+  cloudfront_url: ''

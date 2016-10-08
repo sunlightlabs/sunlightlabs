@@ -1,0 +1,12 @@
+---
+project_name: emailcongress
+django_settings_module: emailcongress.settings.production
+requirements: "requirements.txt"
+deploy_type: "production"
+force_git_checkout: yes
+django_environment:
+  ERROR_LOG_FILE: /projects/emailcongress/logs/django_errors.log
+  SECRET_KEY: ""
+  DATABASE_URL: "postgres://test:test@localhost:5432/test"
+  BROKER_URL: "redis://localhost6379"
+  CELERY_RESULT_BACKEND: "redis://localhost:6379"
